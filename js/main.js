@@ -1,3 +1,5 @@
 var nome = "Fabio Oliveira";
 var idade = 43;
-alert(nome + " tem " + idade + " anos");
+var decada = 10;
+//alert(nome + " tem " + idade + " anos");
+alert(idade + decada);
