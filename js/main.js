@@ -16,3 +16,11 @@ function voltar(elemento){ // recebe elemento como argumento                    
 //    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";                  // usa o id recebido
     elemento.innerHTML = "Passe o mouse aqui";
 }
+
+function load(){
+    alert("Página carregada!");
+}
+
+function mudou(elemento){
+    console.log(elemento.value);
+}

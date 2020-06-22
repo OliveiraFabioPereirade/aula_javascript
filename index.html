@@ -4,7 +4,7 @@
         <title>Minha Página com JavaScript</title>
         <meta charset="utf-8">
         <script type="text/javascript" src="js/main.js"></script>
-        <body>
+        <body onload="load()">
             <button type="button" onclick="clicou()">Clique aqui</button>
             <p id="agradecimento" onclick="redirecionar()"></p>
 
@@ -13,6 +13,11 @@
             <p                 onmouseover ="trocar(this)" onmouseout ="voltar(this)">Passe o mouse aqui</p> 
             <!-- (this) serve para passar o próprio elemento como argumento na chamada de função  dispensando o uso de ids -->
 
+            <select onchange="mudou(this)">
+                <option value="1">Valor 1</option>
+                <option value="2">Valor 2</option>
+                <option value="3">Valor 3</option>
+            </select>
         </body>
     </head>
 
