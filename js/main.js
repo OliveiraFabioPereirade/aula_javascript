@@ -1,10 +1,14 @@
-function soma(n1, n2){
-    return n1 + n2;
+var validar = 0;   // aqui "validar" é uma variável global
+
+function validaIdade(idade){
+//    var validar; // aqui "validar" é uma variável local
+    if (idade >=18){
+        validar = true;
+    }else{
+        validar = false;
+    }
 }
 
-function trocaTextoFrase(frase, texto1, texto2){
-    return frase.replace(texto1, texto2)
-}
-
-alert(soma(12,18));
-alert(trocaTextoFrase("Vai Japão!", "Japão", "Brasil"));
+var idade = prompt("Qual a sua idade ?")
+validaIdade(idade);
+console.log(validar); // só funciona quando "validar" é uma variável global
