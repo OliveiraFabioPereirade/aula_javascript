@@ -6,10 +6,15 @@ console.log(lista);
 //console.log(lista);
 //console.log(lista.length);
 //console.log(lista.reverse());
-console.log(lista.toString());
+//console.log(lista.toString());
+//console.log(lista[0]);
+//console.log(lista.toString()[0]);
+console.log(lista.join(" - "));
+console.log(lista.join(" | "));
+console.log(lista.join("   "));
+console.log(lista.join(""));
 
-console.log(lista[0]);
-console.log(lista.toString()[0]);
+
 
 /*
 var nome = "Fabio Oliveira";
