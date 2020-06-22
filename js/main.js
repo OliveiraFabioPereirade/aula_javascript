@@ -1,10 +1,10 @@
-var d = new Date();
-console.log(d);
-console.log("Dia da semana " + d.getDay());
-console.log("Dia do mês " + d.getUTCDate());
-console.log("Mês " + (d.getMonth() + 1)); // soma 1 porque começa a contar do 0 (janeiro)
-console.log(d.getUTCFullYear());
-console.log(d.getHours());
-console.log(d.getMinutes());
-console.log(d.getSeconds());
+function soma(n1, n2){
+    return n1 + n2;
+}
 
+function trocaTextoFrase(frase, texto1, texto2){
+    return frase.replace(texto1, texto2)
+}
+
+alert(soma(12,18));
+alert(trocaTextoFrase("Vai Japão!", "Japão", "Brasil"));
