@@ -6,5 +6,6 @@ var frase = "O Japão é o melhor time do mundo"
 alert(idade + decada);*/
 console.log(nome);
 console.log(idade + decada);
-console.log(frase.replace("Japão", "Brasil"));
-alert(frase.replace("Japão", "Brasil"));
+console.log(frase.toUpperCase());
+//alert(frase.replace("Japão", "Brasil"));
+console.log(frase.toLowerCase());
