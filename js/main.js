@@ -1,3 +1,19 @@
+var fruta = {nome:"maçã", cor:"vermelha"};
+console.log(fruta.nome);
+alert(fruta.cor);
+
+var frutas =    [
+                    {nome:"maçã", cor:"vermelha"},
+                    {nome:"uva", cor:"roxa"},
+                    {nome:"laranja", cor:"laranja"},
+                ];
+console.log(frutas);
+console.log(frutas[1].nome);
+alert(frutas[0].cor);
+
+
+
+/*
 var lista = ["maçã", "pêra", "laranja"];
 lista.push("uva");
 console.log(lista);
@@ -13,7 +29,7 @@ console.log(lista.join(" - "));
 console.log(lista.join(" | "));
 console.log(lista.join("   "));
 console.log(lista.join(""));
-
+*/
 
 
 /*
