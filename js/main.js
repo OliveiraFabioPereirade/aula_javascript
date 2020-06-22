@@ -1,7 +1,5 @@
-var count = 0;
-while (count <= 5){
+var count;
+for (count = 0; count <= 5; count++){
     console.log(count);
     alert(count);
-//    count = count + 1;
-    count++;
 }
