@@ -1,12 +1,15 @@
 var lista = ["maçã", "pêra", "laranja"];
 lista.push("uva");
 console.log(lista);
-console.log(lista.length);
-lista.pop();
-console.log(lista);
-console.log(lista.length);
-console.log(lista.reverse());
+//console.log(lista.length);
+//lista.pop();
+//console.log(lista);
+//console.log(lista.length);
+//console.log(lista.reverse());
+console.log(lista.toString());
 
+console.log(lista[0]);
+console.log(lista.toString()[0]);
 
 /*
 var nome = "Fabio Oliveira";
